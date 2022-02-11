@@ -38,7 +38,6 @@ driver = webdriver.Chrome(chrome_options=chrome_options,
 
 
 class infine_scroll(object):
-
     def __init__(self, last):
 
         self.last = last
