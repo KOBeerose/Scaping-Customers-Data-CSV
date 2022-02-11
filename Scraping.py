@@ -10,7 +10,7 @@ br.open("https://www.topannonces.fr/")
 
 br.select_form(nr=0)
 br.form['username'] = 'username'
-br.form['password'] = 'password.'
+br.form['password'] = 'password'
 br.submit()
 
 print(br.response().read())
